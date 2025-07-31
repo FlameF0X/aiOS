@@ -11,7 +11,7 @@ build/aios.img: boot/boot.asm kernel/kernel_entry.asm kernel/kernel.c
 	cat build/boot.bin build/kernel.bin > build/aios.img
 
 run: build/aios.img
-	qemu-system-x86_64 -drive format=raw,file=build/aios.img
+	qemu-system-i386 -nographic -drive format=raw,file=build/aios.img
 
 clean:
 	rm -rf build

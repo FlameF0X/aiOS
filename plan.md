@@ -24,7 +24,7 @@ Create a minimal, educational operating system called **aiOS**. The goal is to d
    - Document each step and provide learning resources.
 
 ## Milestones
-- [ ] Bootloader that prints a message
+- [x] Bootloader that prints a message (demonstrated in QEMU)
 - [ ] Kernel that prints to screen
 - [ ] Keyboard input handling
 - [ ] Simple shell with basic commands
